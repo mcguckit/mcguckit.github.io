@@ -1,9 +1,9 @@
 :root {
-  --bg: #0b0f14;
-  --card: #121924;
+  --bg: #130b14;
+  --card: #221224;
   --text: #e8eef6;
   --muted: #a9b4c3;
-  --accent: #6aa9ff;
+  --accent: #b700ff;
   --border: rgba(255,255,255,0.08);
 }
 
