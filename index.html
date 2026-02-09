@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>McGuckit | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand"><a href="index.html">mcguckit</a></div>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="card">
+        <h1>Your Name</h1>
+        <p>
+          Short 1–2 sentence intro. Example: Aerospace/robotics engineer focused on autonomy,
+          controls, and perception. This site is a living portfolio of projects + writeups.
+        </p>
+
+        <div>
+          <span class="pill">Controls</span>
+          <span class="pill">Robotics</span>
+          <span class="pill">Perception</span>
+          <span class="pill">Aerospace</span>
+        </div>
+
+        <p>
+          Quick links:
+          <a href="projects.html">Projects</a> ·
+          <a href="about.html">About</a> ·
+          <a href="https://github.com/mcguckit" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Featured image</h2>
+        <p>Drop an image in <code>assets/</code> and link it here.</p>
+        <img class="media" src="assets/headshot.jpg" alt="Headshot or project image" />
+      </div>
+    </section>
+
+    <section style="margin-top: 18px;" class="grid">
+      <div class="card">
+        <h2>What I’m working on</h2>
+        <p>
+          Add a few bullet-ish lines:
+          <br>• Project A: one sentence
+          <br>• Project B: one sentence
+          <br>• Project C: one sentence
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Embedded video</h2>
+        <p>Works great for demos. Use a YouTube embed link.</p>
+        <div class="embed">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Project demo video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      © <span id="year"></span> Your Name · Built with plain HTML/CSS on GitHub Pages
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
